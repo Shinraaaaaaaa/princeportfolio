@@ -1192,8 +1192,8 @@ footer{
         gap: 5px;
     }
     .share{
-        left: 125px;
-        top: 450px;
+        left: 45px;
+        top: 770px;
     }
     .hero-text{
         margin: 100px 0;
@@ -1322,5 +1322,35 @@ footer{
     }
     .footer-bottom{
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .share{
+        top: 735px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .share{
+        top: 690px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .share{
+        top: 525px;
+    }
+    .hero-img img{
+        top: 80px;
+    }
+    .about-img img{
+        top: 45px;
+    }
+    .about .about-container{
+        flex-direction: column-reverse;
+        height: 100vh;
+        justify-content: center;
+        gap: 50px;
     }
 }
