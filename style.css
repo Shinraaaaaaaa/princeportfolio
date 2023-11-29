@@ -1354,3 +1354,9 @@ footer{
         gap: 50px;
     }
 }
+
+@media screen and (max-width: 366px){
+    .share {
+        top: 545px;
+    }
+}
